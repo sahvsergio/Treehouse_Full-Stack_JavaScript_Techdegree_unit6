@@ -1,0 +1,23 @@
+{
+  "name": "treehouse_full-stack_javascript_techdegree_unit6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit6/issues"
+  },
+  "homepage": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit6#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
