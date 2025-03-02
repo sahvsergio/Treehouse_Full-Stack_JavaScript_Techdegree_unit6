@@ -19,16 +19,16 @@ app.get('/', (req, res)=>{
 
 app.get("/about", (req, res) => {
   //res.render , renders a
-  res.render("I love Treehouse");
+  res.render("about");
 });
 
 app.get("/project:id", (req, res) => {
   //res.render , renders a
-  res.render("I love Treehouse");
+  res.render("project");
 });
 app.get("/projects:id", (req, res) => {
   //res.render , renders a
-  res.render("I love Treehouse");
+  res.render("project");
 });
 
 //open port for the app
