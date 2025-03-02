@@ -1,8 +1,11 @@
 const express = require("express");
 
+
 //create the app
 
 const app=express();
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
 
 //set template engine to pug
 
