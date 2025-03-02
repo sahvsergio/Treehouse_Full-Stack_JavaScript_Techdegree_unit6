@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit6#readme",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "express": "^4.21.2",
     "pug": "^3.0.3"
   }

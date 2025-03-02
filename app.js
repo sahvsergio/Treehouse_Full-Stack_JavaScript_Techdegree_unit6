@@ -12,6 +12,7 @@ app.set('view engine', 'pug');
 
 app.get('/', (req, res)=>{
     //res.render , renders a 
+    console.dir(req.body);
     res.render('index');
 
 
