@@ -13,9 +13,12 @@ router.get("/about", (req, res) => {
   res.render("about");
 });
 
-router.get("/project:id", (req, res) => {
+router.get("/project/:id", (req, res) => {
   //res.render , renders a
-  res.render("project");
+  let project
+  res.render("project",{
+    
+  });
 });
 router.get("/projects:id", (req, res) => {
   //res.render , renders a

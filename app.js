@@ -1,4 +1,7 @@
 const express = require("express");
+const {projects}=require('./data.json');
+console.log(projects);
+
 
 
 const cookieParser=require('cookie-parser');

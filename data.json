@@ -1,0 +1,89 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Portfolio Website",
+            "description": "A personal portfolio website to showcase my projects and skills.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://yourusername.github.io/portfolio",
+            "github_link": "https://github.com/yourusername/portfolio",
+            "image_urls": [
+                "views/images/portfolio-main.jpg",
+                "views/images/portfolio-1.jpg",
+                "views/images/portfolio-2.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Task Manager App",
+            "description": "A simple task management app to keep track of daily tasks.",
+            "technologies": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "live_link": "https://yourusername.github.io/task-manager",
+            "github_link": "https://github.com/yourusername/task-manager",
+            "image_urls": [
+                "views/images/task-manager-main.jpg",
+                "views/images/task-manager-1.jpg",
+                "views/images/task-manager-2.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Weather App",
+            "description": "A weather application that provides real-time weather data.",
+            "technologies": [
+                "Vue.js",
+                "API",
+                "CSS"
+            ],
+            "live_link": "https://yourusername.github.io/weather-app",
+            "github_link": "https://github.com/yourusername/weather-app",
+            "image_urls": [
+                "views/images/weather-app-main.jpg",
+                "views/images/weather-app-1.jpg",
+                "views/images/weather-app-2.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "E-commerce Store",
+            "description": "An online store with a fully functional cart and checkout system.",
+            "technologies": [
+                "Next.js",
+                "Tailwind CSS",
+                "Stripe API"
+            ],
+            "live_link": "https://yourusername.github.io/ecommerce-store",
+            "github_link": "https://github.com/yourusername/ecommerce-store",
+            "image_urls": [
+                "views/images/ecommerce-store-main.jpg",
+                "views/images/ecommerce-store-1.jpg",
+                "views/images/ecommerce-store-2.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Blog CMS",
+            "description": "A content management system for blogging, featuring user authentication.",
+            "technologies": [
+                "Django",
+                "PostgreSQL",
+                "Bootstrap"
+            ],
+            "live_link": "https://yourusername.github.io/blog-cms",
+            "github_link": "https://github.com/yourusername/blog-cms",
+            "image_urls": [
+                "views/images/blog-cms-main.jpg",
+                "views/images/blog-cms-1.jpg",
+                "views/images/blog-cms-2.jpg"
+            ]
+        }
+    ]
+}
