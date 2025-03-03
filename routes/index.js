@@ -1,6 +1,7 @@
 const express= require('express');
 const router=express.Router();
-
+const { projects } = require("../data.json");
+console.log(projects);
 
 router.get("/", (req, res) => {
   //res.render , renders a
@@ -9,15 +10,16 @@ router.get("/", (req, res) => {
 });
 
 router.get("/about", (req, res) => {
+
   //res.render , renders a
   res.render("about");
 });
 
 router.get("/project/:id", (req, res) => {
   //res.render , renders a
-  let project
-  res.render("project",{
-    
+
+ 
+  res.render("project",{project:projects[req.params.id].project_name
   });
 });
 router.get("/projects:id", (req, res) => {
