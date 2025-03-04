@@ -84,6 +84,95 @@
                 "views/images/blog-cms-1.jpg",
                 "views/images/blog-cms-2.jpg"
             ]
+        },
+        {
+            "id": 5,
+            "project_name": "Chat Application",
+            "description": "A real-time chat application with WebSocket integration.",
+            "technologies": [
+                "Socket.io",
+                "Express",
+                "React"
+            ],
+            "live_link": "https://yourusername.github.io/chat-app",
+            "github_link": "https://github.com/yourusername/chat-app",
+            "image_urls": [
+                "views/images/chat-app-main.jpg",
+                "views/images/chat-app-1.jpg",
+                "views/images/chat-app-2.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "project_name": "Finance Tracker",
+            "description": "An application to track personal finance and expenses.",
+            "technologies": [
+                "Python",
+                "Flask",
+                "SQLite"
+            ]
+        },
+        {
+            "id": 7,
+            "project_name": "Recipe App",
+            "description": "A mobile-friendly app to store and share recipes.",
+            "technologies": [
+                "React Native",
+                "Firebase"
+            ]
+        },
+        {
+            "id": 8,
+            "project_name": "Movie Database",
+            "description": "A web app to browse and search for movies.",
+            "technologies": [
+                "Angular",
+                "TMDb API"
+            ]
+        },
+        {
+            "id": 9,
+            "project_name": "Online Forum",
+            "description": "A discussion forum with user authentication.",
+            "technologies": [
+                "Ruby on Rails",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "id": 10,
+            "project_name": "Fitness Tracker",
+            "description": "An app to track workouts and progress.",
+            "technologies": [
+                "Flutter",
+                "Firebase"
+            ]
+        },
+        {
+            "id": 11,
+            "project_name": "Job Board",
+            "description": "A platform to post and search for jobs.",
+            "technologies": [
+                "Laravel",
+                "MySQL"
+            ]
+        },
+        {
+            "id": 12,
+            "project_name": "Social Media Clone",
+            "description": "A basic social media platform with posts and likes.",
+            "technologies": [
+                "MERN Stack"
+            ]
+        },
+        {
+            "id": 13,
+            "project_name": "AI Chatbot",
+            "description": "An AI-powered chatbot using NLP.",
+            "technologies": [
+                "Python",
+                "TensorFlow"
+            ]
         }
     ]
 }
