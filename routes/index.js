@@ -16,10 +16,11 @@ router.get("/about", (req, res) => {
 });
 
 router.get("/project/:id", (req, res) => {
-  //res.render , renders a
-
+  //res.render , renders 
+  let project= projects[req.params.id];
  
-  res.render("project",{project:projects[req.params.id].project_name
+  res.render("project",{projectName:project.project_name
+    
   });
 });
 router.get("/projects:id", (req, res) => {
