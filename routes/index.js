@@ -1,12 +1,15 @@
 const express= require('express');
 const router=express.Router();
 const { projects } = require("../data.json");
-console.log(projects);
 
+
+const myName='Sergio Andrés Herrera Velásquez'
 router.get("/", (req, res) => {
   //res.render , renders a
   console.dir(req.body);
-  res.render("index");
+ 
+
+  res.render("index", {projects});
 });
 
 router.get("/about", (req, res) => {

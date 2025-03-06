@@ -2,176 +2,88 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Portfolio Website",
-            "description": "A personal portfolio website to showcase my projects and skills.",
+            "project_name": "Random Quote Generator",
+            "description": "A web application that displays a random quote each time a button is clicked, demonstrating basic JavaScript skills and DOM manipulation.",
             "technologies": [
+                "JavaScript",
                 "HTML",
-                "CSS",
-                "JavaScript"
+                "CSS"
             ],
-            "live_link": "https://yourusername.github.io/portfolio",
-            "github_link": "https://github.com/yourusername/portfolio",
+            "live_link": "https://sahvsergio.github.io/Treehouse_Full-Stack_JavaScript_Techdegree_unit1",
+            "github_link": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit1",
             "image_urls": [
-                "views/images/portfolio-main.jpg",
-                "views/images/portfolio-1.jpg",
-                "views/images/portfolio-2.jpg"
+                "images/unit1-main.jpg",
+                "images/unit1-1.jpg",
+                "images/unit1-2.jpg"
             ]
         },
         {
             "id": 1,
-            "project_name": "Task Manager App",
-            "description": "A simple task management app to keep track of daily tasks.",
+            "project_name": "Pagination and Content Filter",
+            "description": "An application that divides a list of students into pages and adds search functionality, enhancing user experience with pagination and filtering.",
             "technologies": [
-                "React",
-                "Node.js",
-                "MongoDB"
+                "JavaScript",
+                "HTML",
+                "CSS"
             ],
-            "live_link": "https://yourusername.github.io/task-manager",
-            "github_link": "https://github.com/yourusername/task-manager",
+            "live_link": "https://sahvsergio.github.io/Treehouse_Full-Stack_JavaScript_Techdegree_unit2",
+            "github_link": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit2",
             "image_urls": [
-                "views/images/task-manager-main.jpg",
-                "views/images/task-manager-1.jpg",
-                "views/images/task-manager-2.jpg"
+                "images/unit2-main.jpg",
+                "images/unit2-1.jpg",
+                "images/unit2-2.jpg"
             ]
         },
         {
             "id": 2,
-            "project_name": "Weather App",
-            "description": "A weather application that provides real-time weather data.",
+            "project_name": "Interactive Form",
+            "description": "An interactive registration form for a conference, providing real-time validation feedback to users.",
             "technologies": [
-                "Vue.js",
-                "API",
+                "JavaScript",
+                "HTML",
                 "CSS"
             ],
-            "live_link": "https://yourusername.github.io/weather-app",
-            "github_link": "https://github.com/yourusername/weather-app",
+            "live_link": "https://sahvsergio.github.io/Treehouse_Full-Stack_JavaScript_Techdegree_unit3",
+            "github_link": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit3",
             "image_urls": [
-                "views/images/weather-app-main.jpg",
-                "views/images/weather-app-1.jpg",
-                "views/images/weather-app-2.jpg"
+                "images/unit3-main.jpg",
+                "images/unit3-1.jpg",
+                "images/unit3-2.jpg"
             ]
         },
         {
             "id": 3,
-            "project_name": "E-commerce Store",
-            "description": "An online store with a fully functional cart and checkout system.",
+            "project_name": "OOP Game Show App",
+            "description": "A word guessing game built with Object-Oriented Programming principles, enhancing JavaScript proficiency.",
             "technologies": [
-                "Next.js",
-                "Tailwind CSS",
-                "Stripe API"
+                "JavaScript",
+                "HTML",
+                "CSS"
             ],
-            "live_link": "https://yourusername.github.io/ecommerce-store",
-            "github_link": "https://github.com/yourusername/ecommerce-store",
+            "live_link": "https://sahvsergio.github.io/Treehouse_Full-Stack_JavaScript_Techdegree_unit4",
+            "github_link": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit4",
             "image_urls": [
-                "views/images/ecommerce-store-main.jpg",
-                "views/images/ecommerce-store-1.jpg",
-                "views/images/ecommerce-store-2.jpg"
+                "images/unit4-main.jpg",
+                "images/unit4-1.jpg",
+                "images/unit4-2.jpg"
             ]
         },
         {
             "id": 4,
-            "project_name": "Blog CMS",
-            "description": "A content management system for blogging, featuring user authentication.",
+            "project_name": "Public API Requests",
+            "description": "An employee directory that fetches and displays data from a public API, showcasing skills in working with APIs and asynchronous JavaScript.",
             "technologies": [
-                "Django",
-                "PostgreSQL",
-                "Bootstrap"
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "API"
             ],
-            "live_link": "https://yourusername.github.io/blog-cms",
-            "github_link": "https://github.com/yourusername/blog-cms",
+            "live_link": "https://sahvsergio.github.io/Treehouse_Full-Stack_JavaScript_Techdegree_unit5",
+            "github_link": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit5",
             "image_urls": [
-                "views/images/blog-cms-main.jpg",
-                "views/images/blog-cms-1.jpg",
-                "views/images/blog-cms-2.jpg"
-            ]
-        },
-        {
-            "id": 5,
-            "project_name": "Chat Application",
-            "description": "A real-time chat application with WebSocket integration.",
-            "technologies": [
-                "Socket.io",
-                "Express",
-                "React"
-            ],
-            "live_link": "https://yourusername.github.io/chat-app",
-            "github_link": "https://github.com/yourusername/chat-app",
-            "image_urls": [
-                "views/images/chat-app-main.jpg",
-                "views/images/chat-app-1.jpg",
-                "views/images/chat-app-2.jpg"
-            ]
-        },
-        {
-            "id": 6,
-            "project_name": "Finance Tracker",
-            "description": "An application to track personal finance and expenses.",
-            "technologies": [
-                "Python",
-                "Flask",
-                "SQLite"
-            ]
-        },
-        {
-            "id": 7,
-            "project_name": "Recipe App",
-            "description": "A mobile-friendly app to store and share recipes.",
-            "technologies": [
-                "React Native",
-                "Firebase"
-            ]
-        },
-        {
-            "id": 8,
-            "project_name": "Movie Database",
-            "description": "A web app to browse and search for movies.",
-            "technologies": [
-                "Angular",
-                "TMDb API"
-            ]
-        },
-        {
-            "id": 9,
-            "project_name": "Online Forum",
-            "description": "A discussion forum with user authentication.",
-            "technologies": [
-                "Ruby on Rails",
-                "PostgreSQL"
-            ]
-        },
-        {
-            "id": 10,
-            "project_name": "Fitness Tracker",
-            "description": "An app to track workouts and progress.",
-            "technologies": [
-                "Flutter",
-                "Firebase"
-            ]
-        },
-        {
-            "id": 11,
-            "project_name": "Job Board",
-            "description": "A platform to post and search for jobs.",
-            "technologies": [
-                "Laravel",
-                "MySQL"
-            ]
-        },
-        {
-            "id": 12,
-            "project_name": "Social Media Clone",
-            "description": "A basic social media platform with posts and likes.",
-            "technologies": [
-                "MERN Stack"
-            ]
-        },
-        {
-            "id": 13,
-            "project_name": "AI Chatbot",
-            "description": "An AI-powered chatbot using NLP.",
-            "technologies": [
-                "Python",
-                "TensorFlow"
+                "images/unit5-main.jpg",
+                "images/unit5-1.jpg",
+                "images/unit5-2.jpg"
             ]
         }
     ]

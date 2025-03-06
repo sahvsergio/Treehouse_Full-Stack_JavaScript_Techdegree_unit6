@@ -11,6 +11,8 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser())
 app.use('/static', express.static('public'));
+app.use('/images', express.static('images'));
+
 
 //set template engine to pug
 
