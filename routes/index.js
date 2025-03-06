@@ -22,15 +22,15 @@ router.get("/project/:id", (req, res) => {
   //res.render , renders 
   let project= projects[req.params.id];
  
-  res.render("project",{projectName:project.project_name
-    
-  });
-});
-router.get("/projects:id", (req, res) => {
-  //res.render , renders a
-  res.render("project");
+  res.render("project",{projectName:project.project_name});
 });
 
+
+
+function errorHandler(err, req, res, next) {
+  res.status(404);
+  res.render("404", { error: err });
+}
 
 // import the router to be used
 module.exports=router;
