@@ -19,7 +19,7 @@ block content
       each   project, index in projects
         .cell
           a(href="")
-            img.thumbnail(src="/mockups/about-page.png")
+            img.thumbnail(src=project.image_urls[0])
             h5=project.project_name
 
 
