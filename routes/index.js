@@ -18,11 +18,18 @@ router.get("/about", (req, res) => {
   res.render("about");
 });
 
-router.get("/project/:id", (req, res) => {
+router.get("/project/:id", (req, res, next) => {
   //res.render , renders 
   let project= projects[req.params.id];
+  if (project){
+    res.render("project", { projectName: project.project_name });
+  }
+  else{
+    next();
+
+  }
  
-  res.render("project",{projectName:project.project_name});
+  
 });
 
 
