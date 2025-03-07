@@ -27,10 +27,7 @@ router.get("/project/:id", (req, res) => {
 
 
 
-function errorHandler(err, req, res, next) {
-  res.status(404);
-  res.render("404", { error: err });
-}
+
 
 // import the router to be used
 module.exports=router;
