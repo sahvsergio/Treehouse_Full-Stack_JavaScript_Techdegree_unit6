@@ -26,7 +26,7 @@ const routes= require('./routes');
 app.use(routes);
 
 app.use((req, res, next)=>{
-  const err= new Error('Page Not Found');
+  const err= new Error('Ohh something happened ');
   err.status=500;
   next(err);
 });
@@ -35,6 +35,7 @@ app.use((req, res, next)=>{
 app.use((err, req, res, nex) => {
   res.locals.error = err;
   res.status(err.status);
+  console.log(err.message);
   res.render("error", err);
 });
 
@@ -49,6 +50,7 @@ app.use((req, res, next)=>{
 app.use((err,req, res, nex)=>{
   res.locals.error=err;
   res.status(err.status);
+  console.log('The page you are looking for was not found');
   res.render('page-not-found', err);
 
 })
