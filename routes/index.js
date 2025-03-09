@@ -21,9 +21,17 @@ router.get("/about", (req, res) => {
 router.get("/project/:id", (req, res, next) => {
   //res.render , renders 
   let project= projects[req.params.id];
+  
   if (project){
-    res.render("project", { projectName: project.project_name });
-  }
+    res.render("project", {
+      projectName: project.project_name,
+      projectDescription: project.description,
+      projectTechs: project.technologies,
+      projectLive: project.live_link,
+      projectGit: project.github_link,
+      projectPics: project.image_urls
+    });
+}
   else{
     next();
 
