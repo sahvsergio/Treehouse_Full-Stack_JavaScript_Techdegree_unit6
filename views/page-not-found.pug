@@ -1,5 +1,6 @@
 extends layout.pug
-block content 
- h1=error.message
- h2=error.status
- p welcome to the 404 page
+block content
+ div.my404
+   h1= error.status
+   h2= error.message
+   p welcome to the 404 page

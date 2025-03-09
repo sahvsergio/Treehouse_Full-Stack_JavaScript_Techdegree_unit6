@@ -14,7 +14,8 @@
             "image_urls": [
                 "../images/randomQuote/Random Quote Generator 550x550.png",
                 "../images/randomQuote/Random Quote Generator1.png",
-                "images/unit1-2.jpg"
+                "../images/randomQuote/Random Quote Generator2.png",
+                "../images/randomQuote/Random Quote Generator3.png"
             ]
         },
         {
@@ -29,9 +30,10 @@
             "live_link": "https://sahvsergio.github.io/Treehouse_Full-Stack_JavaScript_Techdegree_unit2",
             "github_link": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit2",
             "image_urls": [
-                "images/Pagination/Pagination and Content Filter550x550.png",
-                "images/unit2-1.jpg",
-                "images/unit2-2.jpg"
+                "../images/Pagination/Pagination and Content Filter550x550.png",
+                "../images/Pagination/Pagination and Content Filter1.png",
+                "../images/Pagination/Pagination and Content Filter2.png",
+                "../images/Pagination/Pagination and Content Filter3.png"
             ]
         },
         {
@@ -47,8 +49,9 @@
             "github_link": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit3",
             "image_urls": [
                 "../images/interactiveForm/Interactive Form550x550.png",
-                "../images/unit3-1.jpg",
-                "../images/unit3-2.jpg"
+                "../images/interactiveForm/Interactive Form1.png",
+                "../images/interactiveForm/Interactive Form2.png",
+                "../images/interactiveForm/Interactive Form3.png"
             ]
         },
         {
@@ -63,9 +66,10 @@
             "live_link": "https://sahvsergio.github.io/Treehouse_Full-Stack_JavaScript_Techdegree_unit4",
             "github_link": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit4",
             "image_urls": [
-                "images/OOP Game Show/OOP Game Show App550x550.png",
-                "images/unit4-1.jpg",
-                "images/unit4-2.jpg"
+                "../images/OOP Game Show/OOP Game Show App550x550.png",
+                "../images/OOP Game Show/OOP Game Show App1.png",
+                "../images/OOP Game Show/OOP Game Show App2.png",
+                "../images/OOP Game Show/OOP Game Show App3.png"
             ]
         },
         {
@@ -81,9 +85,10 @@
             "live_link": "https://sahvsergio.github.io/Treehouse_Full-Stack_JavaScript_Techdegree_unit5",
             "github_link": "https://github.com/sahvsergio/Treehouse_Full-Stack_JavaScript_Techdegree_unit5",
             "image_urls": [
-                "images/publicAPI/Public API Requests550x550.png",
-                "images/unit5-1.jpg",
-                "images/unit5-2.jpg"
+                "../images/publicAPI/Public API Requests550x550.png",
+                "../images/publicAPI/Public API Requests1.png",
+                "../images/publicAPI/Public API Requests2.png",
+                "../images/publicAPI/Public API Requests3.png"
             ]
         }
     ]

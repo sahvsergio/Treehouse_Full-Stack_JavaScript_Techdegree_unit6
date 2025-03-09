@@ -160,8 +160,8 @@ nav a span {
 .dev-intro-box {
   padding: 10px;
 }
-.dev-intro-box h6{
-  color:#fefefe;
+.dev-intro-box h6 {
+  color: #fefefe;
 }
 
 .sidebar h5 {
@@ -302,6 +302,13 @@ nav a span {
   padding: 0.85em 1em;
   background-color: #333;
   border: 1px solid transparent;
+}
+.error {
+  text-align: center;
+}
+.my404 {
+  margin:auto;
+  text-align:center;
 }
 
 /* 
